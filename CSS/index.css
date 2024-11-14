@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family:'Times New Roman', Times, serif;
+}
+header .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 10px;
+}
+main .instructions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 10px;
+}
+main .ABC{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .ABC .Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+main .ACB .Container .Letter{
+    display: none;
+}
+body.show .Letter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main .ABC .Container .Letter button{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+main .ABC .Container .Letter-btn{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}

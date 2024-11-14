@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS ABC's</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <script src="./JS/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h2 class="title">
+        Welcome to the interactive ABC's of CSS Technology learning website
+      </h2>
+    </header>
+    <main>
+      <h4 class="instructions">
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the coresponding letters
+      </h4>
+      <div class="ABC">
+        <div class="Container">
+          <div class="Letter">
+            <img
+              src="./Assets/img/css-letter-a.png"
+              alt="this is a picture of the letter A standing for aspect ratio"
+            />
+            <button onclick="hide()">Hide Result</button>
+          </div>
+          <button class="Letter-btn" onclick="show()">A</button>
+        </div>
+        <div class="Container">
+          <div class="Letter">
+            <img
+              src="./Assets/img/css-letter-b.png"
+              alt="this is a picture of the letter B standing for border"
+            />
+            <button onclick="hide()">Hide Result</button>
+          </div>
+          <form id="Letter-form">
+            <button class="Letter-btn" onclick="show()">B</button>
+          </form>
+        </div>
+        <div class="Container">
+          <div class="Letter">
+            <img
+              src="./Assets/img/css-letter-c.png"
+              alt="this is a picture of the letter C standing for colors"
+            />
+            <button onclick="hide()">Hide Result</button>
+          </div>
+          <form id="Letter-form">
+            <button class="Letter-btn" onclick="show()">C</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
